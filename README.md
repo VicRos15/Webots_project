@@ -4,16 +4,9 @@ This project features a custom CSV map generated based on my name, **Victor Rosi
 
 ## Custom map
 
-1,1,1,1,1,1,1,1,1,1,1,1,1,1
-1,0,0,0,0,0,0,0,0,0,0,0,0,1
-1,0,0,0,0,0,0,1,1,1,1,0,0,1
-1,0,0,0,0,0,0,0,0,1,1,0,0,1
-1,1,1,1,0,0,0,0,0,1,1,0,0,1
-1,1,1,1,0,0,0,0,0,0,0,0,0,1
-1,0,0,0,0,0,1,1,0,0,0,0,0,1
-1,0,0,0,0,1,1,1,0,0,0,0,0,1
-1,0,0,0,0,0,0,0,0,0,0,0,0,1
-1,1,1,1,1,1,1,1,1,1,1,1,1,1
+The result of creating a map using my surname is this map in csv:
+![CSV map](images/map_csv.png)
+
 
 This is the original map, created using the script **webots-map-from-csv_R2022b.py**
 
