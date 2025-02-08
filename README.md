@@ -5,6 +5,7 @@ This project features a custom CSV map generated based on my name, **Victor Rosi
 ## Custom map
 
 The result of creating a map using my surname is this map in csv:
+
 ![CSV map](images/map_csv.png)
 
 
