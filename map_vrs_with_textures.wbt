@@ -1,655 +1,795 @@
-#VRML_SIM R2022b utf8
+#VRML_SIM R2023b utf8
+
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/Floor.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
 WorldInfo {
-  coordinateSystem "ENU"
 }
 Viewpoint {
-  orientation -0.181 0.103 0.978 2.15
-  position 14.5 -11.1 7.31
+  orientation -0.3562674130571013 0.14487860267257419 0.9230838103234414 2.4357226884484335
+  position 13.389845878646586 -4.190556897279973 10.320576553527294
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
 }
 Floor {
-  translation 5.0 7.0 0
-  size 10.0 14.0
+  translation 5 7 0
+  size 10 14
   appearance Appearance {
     texture ImageTexture {
-      url "textures/grass.jpg"
+      url [
+        "textures/grass_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_0"
   translation 0.5 0.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_0"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_1"
   translation 0.5 1.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_1"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_2"
   translation 0.5 2.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_2"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_3"
   translation 0.5 3.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_3"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_4"
   translation 0.5 4.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_4"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_5"
   translation 0.5 5.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_5"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_6"
   translation 0.5 6.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_6"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_7"
   translation 0.5 7.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_7"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_8"
   translation 0.5 8.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_8"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_9"
   translation 0.5 9.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_9"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_10"
   translation 0.5 10.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_10"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_11"
   translation 0.5 11.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_11"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_12"
   translation 0.5 12.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_12"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_0_13"
   translation 0.5 13.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_0_13"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_1_0"
   translation 1.5 0.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_1_0"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_1_13"
   translation 1.5 13.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_1_13"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_2_0"
   translation 2.5 0.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_2_0"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_2_7"
   translation 2.5 7.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_2_7"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_2_8"
   translation 2.5 8.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_2_8"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_2_9"
   translation 2.5 9.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_2_9"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_2_10"
   translation 2.5 10.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_2_10"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_2_13"
   translation 2.5 13.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_2_13"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_3_0"
   translation 3.5 0.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_3_0"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_3_9"
   translation 3.5 9.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_3_9"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_3_10"
   translation 3.5 10.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_3_10"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_3_13"
   translation 3.5 13.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_3_13"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_4_0"
   translation 4.5 0.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_4_0"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_4_1"
   translation 4.5 1.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_4_1"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_4_2"
   translation 4.5 2.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_4_2"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_4_3"
   translation 4.5 3.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_4_3"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_4_9"
   translation 4.5 9.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_4_9"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_4_10"
   translation 4.5 10.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_4_10"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_4_13"
   translation 4.5 13.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_4_13"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_5_0"
   translation 5.5 0.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_5_0"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_5_1"
   translation 5.5 1.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_5_1"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_5_2"
   translation 5.5 2.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_5_2"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_5_3"
   translation 5.5 3.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_5_3"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_5_13"
   translation 5.5 13.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_5_13"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_6_0"
   translation 6.5 0.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_6_0"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_6_6"
   translation 6.5 6.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_6_6"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_6_7"
   translation 6.5 7.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_6_7"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_6_13"
   translation 6.5 13.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_6_13"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_7_0"
   translation 7.5 0.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_7_0"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_7_5"
   translation 7.5 5.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_7_5"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_7_6"
   translation 7.5 6.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_7_6"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_7_7"
   translation 7.5 7.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_7_7"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_7_13"
   translation 7.5 13.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_7_13"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_8_0"
   translation 8.5 0.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_8_0"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_8_13"
   translation 8.5 13.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_8_13"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_0"
   translation 9.5 0.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_0"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_1"
   translation 9.5 1.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_1"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_2"
   translation 9.5 2.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_2"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_3"
   translation 9.5 3.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_3"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_4"
   translation 9.5 4.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_4"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_5"
   translation 9.5 5.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_5"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_6"
   translation 9.5 6.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_6"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_7"
   translation 9.5 7.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_7"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_8"
   translation 9.5 8.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_8"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_9"
   translation 9.5 9.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_9"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_10"
   translation 9.5 10.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_10"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_11"
   translation 9.5 11.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_11"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_12"
   translation 9.5 12.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_12"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
 }
 SolidBox {
-  name "mountain_9_13"
   translation 9.5 13.5 0.5
-  size 1.0 1.0 1.0
+  name "mountain_9_13"
+  size 1 1 1
   appearance Appearance {
     texture ImageTexture {
-      url "textures/rock_.jpg"
+      url [
+        "textures/rock_.jpg"
+      ]
     }
   }
+}
+E-puck {
+  translation 1.5 1.5 0
+  controller "vrs_controller"
+  turretSlot [
+    GPS {
+    }
+    InertialUnit {
+    }
+  ]
 }
