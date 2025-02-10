@@ -20,6 +20,7 @@ enum State {
     AVOIDING_OBSTACLE,
     ARRIVED
 };
+std::cout << ' '<<std::endl;
 
 // Constantes de control
 const double TARGET_X = 9.0;
