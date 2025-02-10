@@ -26,17 +26,21 @@ The system includes the following sensors:
 
 - **GPS Sensor**: Used to obtain precise location data.
 - **IMU (Inertial Measurement Unit) Sensor**: Provides orientation, acceleration, and angular velocity data.
+- **Position Sensor (Encoder)**: Used to obtain the odometry.
+- **Distance Sensor**: Used to avoid obstacles.
 
 ## API
 
 The project includes these functionalities:
 
+### API webots extras
+- **Position Sensor (Encoder)**: Implement a position controller on each wheel to update the odometry. Moreover, it's useful to compare the odometry with the GPS output for redundancy. (7.5%)
+- **Distance Snesor**: Implement 4 laser distance sensor, two in the front, and one on each side. The controller use them to change the system state.(7.5%) 
+
 ### Constant variables
 - `lineal_speed`- The maximum lineal speed for this robot is 6.28.
 - `position_tol`- Position tolerance to perform the movement.
 - `angle_tol`- Anngle tolerance to turn the robot.
-
-
 
 
 ### Movement
@@ -63,14 +67,11 @@ The robot follows a state-based trajectory system:
 - `TURNING_RIGHT` - Rotates right when aligning back to the X-axis.
 - `ARRIVED` - Stops moving once the target location is reached.
 
-## GUI Changes
+## GUI extra
 
 Significant improvements have been made to the GUI, including:
 
-- **Map Texture Customization**: Users can now change the textures of the map for better visualization and user experience. You could change textures including new images. To create the new map with textures you have to run **map_from_scv_textures.py** script.
-- **Improved Sensor Data Display**: Real-time sensor readings are now viewed on webots terminal.
-
-This project ensures an enhanced mapping experience with real-time data integration and user-friendly visualization tools.
+- **Map Texture Customization**: Users can now change the textures of the map for better visualization and user experience. You could change textures including new images. To create the new map with textures you have to run **map_from_scv_textures.py** script. (2.5%)
 
 ## Notes
 

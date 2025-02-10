@@ -9,8 +9,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.382730212295362 0.3484868490273189 -0.8556135229479239 1.8063480659740159
-  position 2.42197080249935 5.74537001689631 3.969718602557752
+  orientation -0.3703387262292181 0.7770335162401598 0.5089873696805979 1.5169292488133816
+  position -0.2680698026068349 -0.16302604176347213 30.146910337635067
 }
 TexturedBackground {
 }
@@ -337,9 +337,62 @@ SolidBox {
 }
 E-puck {
   translation 1.5 1.5 0
-  rotation -9.623558253683768e-07 -0.9999999999995363 -4.047390029416887e-08 0.004071319645118735
   controller "vrs_controller"
   turretSlot [
+    DistanceSensor {
+      rotation 0 0 1 0.25
+      name "front_ds_l"
+      lookupTable [
+        0.01 100 0
+        0.1 400 0
+        0.5 600 0
+        1 700 0
+        1.5 900 0
+        2 1000 0
+      ]
+      type "laser"
+    }
+    DistanceSensor {
+      translation 0 -0.03 0
+      rotation 0 0 1 -1.57
+      name "right_ds"
+      lookupTable [
+        0.01 100 0
+        0.1 400 0
+        0.5 600 0
+        1 700 0
+        1.5 900 0
+        2 1000 0
+      ]
+      type "laser"
+    }
+    DistanceSensor {
+      translation 0 0.03 0
+      rotation 0 0 1 1.57
+      name "left_ds"
+      lookupTable [
+        0.01 100 0
+        0.1 400 0
+        0.5 600 0
+        1 700 0
+        1.5 900 0
+        2 1000 0
+      ]
+      type "laser"
+    }
+    DistanceSensor {
+      rotation 0 0 1 -0.25
+      name "front_ds_r"
+      lookupTable [
+        0.01 100 0
+        0.1 400 0
+        0.5 600 0
+        1 700 0
+        1.5 900 0
+        2 1000 0
+      ]
+      type "laser"
+    }
     InertialUnit {
     }
     GPS {
