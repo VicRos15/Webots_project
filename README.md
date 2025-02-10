@@ -37,14 +37,28 @@ The project includes these functionalities:
 - **Position Sensor (Encoder)**: Implement a position controller on each wheel to update the odometry. Moreover, it's useful to compare the odometry with the GPS output for redundancy. (7.5%)
 - **Distance Snesor**: Implement 4 laser distance sensor, two in the front, and one on each side. The controller use them to change the system state.(7.5%) 
 
-### Constant variables
-- `lineal_speed`- The maximum lineal speed for this robot is 6.28.
-- `position_tol`- Position tolerance to perform the movement.
-- `angle_tol`- Anngle tolerance to turn the robot.
+### Constant Variables
+
+The following constants define the robot's control parameters:
+
+- **TARGET_X** - X coordinate of the target destination.
+- **TARGET_Y** - Y coordinate of the target destination.
+- **LINEAR_SPEED** - Maximum linear speed of the robot (6.0).
+- **TURN_SPEED** - Speed at which the robot rotates (1.0).
+- **ANGLE_TOLERANCE** - Allowed angular deviation (0.1).
+- **POSITION_TOLERANCE** - Allowed positional deviation (0.5).
+- **OBSTACLE_THRESHOLD** - Sensor reading threshold to detect obstacles (500.0).
+- **SAFE_DISTANCE** - Minimum safe distance to obstacles (700.0).
+- **WHEEL_RADIUS** - Radius of the wheels (0.0205).
+- **WHEEL_BASE** - Distance between the wheels (0.058).
+
+### Control
+- `run_trajectory()` - Changes the state to perform the optimal trajectory.
+- `calculate_target_angle(x, y)` - Computes the angle required to reach the target.
+- `update_odometry()` - Updates the robot's position using encoder data.
 
 
 ### Movement
-- `run_trajectory()`- Changes the state to perform the optimal trajectory.
 - `move_forward()` - Moves the robot forward at a constant speed.
 - `move_backward()` - Moves the robot backward at a constant speed.
 - `turn_left()` - Rotates the robot to the left.
@@ -61,14 +75,12 @@ The project includes these functionalities:
 ### Trajectory States
 The robot follows a state-based trajectory system:
 
-- `MOVING_X` - Moves along the X-axis towards the target.
-- `MOVING_Y` - Moves along the Y-axis towards the target.
-- `TURNING_LEFT` - Rotates left when a direction change is needed.
-- `TURNING_RIGHT` - Rotates right when aligning back to the X-axis.
-- `ARRIVED` - Stops moving once the target location is reached.
+- `ORIENTING` - Adjusts its orientation to align with the target direction before moving.
+- `MOVING_FORWARD` - Moves straight toward the target while avoiding minor obstacles.
+- `AVOIDING_OBSTACLE` - Executes a maneuver to bypass an obstacle detected by the sensors.
+- `ARRIVED` - Stops moving upon reaching the target location.
 
 ## GUI extra
-
 Significant improvements have been made to the GUI, including:
 
 - **Map Texture Customization**: Users can now change the textures of the map for better visualization and user experience. You could change textures including new images. To create the new map with textures you have to run **map_from_scv_textures.py** script. (2.5%)
@@ -78,5 +90,4 @@ Significant improvements have been made to the GUI, including:
 - [Upgrade from R2023a to R2023b](https://cyberbotics.com/doc/guide/from-2023a-to-2023b): No relevant changes
 - [Upgrade from R2022a to R2022b](https://cyberbotics.com/doc/guide/from-2022a-to-2022b): EXTERNPROTO
 - [Upgrade from R2021b to R2022a](https://cyberbotics.com/doc/guide/from-2021b-to-2022a): Changes in orientation
-
 
