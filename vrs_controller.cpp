@@ -20,7 +20,6 @@ enum State {
     AVOIDING_OBSTACLE,
     ARRIVED
 };
-std::cout << ' '<<std::endl;
 
 // Constantes de control
 const double TARGET_X = 9.0;
@@ -35,6 +34,7 @@ const double WHEEL_RADIUS = 0.0205; // Radio de las ruedas
 const double WHEEL_BASE = 0.058; // Distancia entre ruedas 
 
 // Variables globales
+
 Motor* motor_left;
 Motor* motor_right;
 GPS* gps;
